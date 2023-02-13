@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.div2{
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.div1{
+    height: 100px;
+    width: 100px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 2px solid black;
+}
+.btn{
+    padding: 5px 20px;
+    margin-top: 5px;
+}
