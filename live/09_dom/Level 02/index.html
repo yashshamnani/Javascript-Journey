@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Level 2</title>
+  </head>
+  <body>
+    <!-- getElementById
+    <p id="one"><span>Hi     </span>Hello JavaScript</p>
+    <script>
+      var val = document.getElementById("one");
+      console.log(val.innerHTML);//The innerHTML property returns:
+// The text content of the element, including all spacing and inner HTML tags.
+      console.log(val.innerText);//The innerText property returns:
+// Just the text content of the element and all its children, without CSS hidden text spacing and tags, except <script> and <style> elements.
+      console.log(val.textContent);//The textContent property returns:
+// The text content of the element and all descendaces, with spacing and CSS hidden text, but without tags.
+    </script> -->
+
+    <!-- getElementByClassName -->
+    <!-- HTMLCollection array of element -->
+    <!-- NodeList array of HTML Object -->
+    <ul>
+      <li class="tech">javaScript</li>
+      <li class="tech">Nodejs</li>
+      <li class="tech">Reactjs</li>
+    </ul>
+    <!-- <script>
+      const val = document.getElementsByClassName("tech");
+      console.log(val);
+      console.log(val[0].innerHTML);
+      console.log(val[1].innerHTML);
+      console.log(val[2].innerHTML);
+      val[1].innerHTML = "NodeJS";
+      console.log(val[1].innerHTML);
+    </script> -->
+<!-- An HTMLCollection is a collection of document elements. -->
+<!-- A NodeList is a collection of document nodes (element nodes, attribute nodes, and text nodes). -->
+    <!-- getElementsByTagName -->  
+     <!-- <h1>Hello World</h1>
+    <h2>hello Universe</h2>
+    <p>P One</p>
+    <p>P Two</p>
+    <p>P Three</p>
+    <script>
+      const val = document.getElementsByTagName("p");
+      console.log(val);
+      const val1 = document.getElementsByTagName("p")[1];
+      console.log(val1.innerText);
+      var one = (document.getElementsByTagName("p")[2].innerHTML =
+        " Hello Hitesh Sir"); 
+    document.getElementsByTagName("p")[2].style.color = "Red";
+    </script> -->
+
+   
+    <!-- HomeWork: getElementByName -->
+    <!-- <p>First name : <input name="tech" type="text" value="yash"></p>
+ <p>Last name : <input name="tech" type="text" value="shamnani"></p>
+ <script>
+    let val = document.getElementsByName("tech");
+    console.log(val[0].tagName);
+ </script> -->
+
+    <!-- JavaScript QuerySelector select an HTML or HTML elements by tag name, by id or by class name.  -->
+    <h1>Hello JavaScript Query Selector</h1>
+    <p>Hello</p>
+    <p>Hi One</p>
+    <p>Hi Two</p>
+    <p>Hi Three</p>
+    <script>
+      var value = document.querySelector("p");
+      console.log(value);
+      var value = document.querySelector(".classname");
+      console.log(value);
+      var value = document.querySelector("#idName");
+      console.log(value);
+        var value = (document.querySelector("p").style.backgroundColor = "Red");
+        console.log(value);
+
+      //   Adding Attribute
+        var value1 = document.querySelector("p");
+        value1.className = "One";
+        var value2 = document.querySelector("p");
+        value2.id = "Hello";
+        console.log(value1.classList);
+
+      var value = document.querySelectorAll("p");
+        console.log(value);
+        value[3].setAttribute("class", "js");
+        console.log(value[3]);
+      value[3].classList.add("title", "hello", "hi");
+      value[2].setAttribute("id", "js");
+      //   To add Value
+      value[3].textContent = "JavaScript Hitesh Sir";
+    </script>
+  </body>
+</html>
