@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center">Welcome To JavaScript BootCamp</h1>
+    <!-- <button onclick="hello()" id="js">Click me</button> -->
+    <!-- <button ondblclick="hello()" id="js">Click me</button> -->
+    <!-- <button onmouseenter="hello()" id="js">Click me</button> -->
+    <!-- <button onmouseleave="hello()" id="js">Click me</button> -->
+    <!-- <button onfocus="hello()" id="js">Click me</button> -->
+    <!-- <button onl ="hello()" id="js">Click me</button> -->
+    <!-- <script>
+       function hello() {
+        document.getElementById("js").innerText =  
+        "Hello i was pressed"
+       }
+
+                        
+    </script> -->
+     <!-- <p id="js1"></p>
+     <button id="js">Click me</button>
+     <script>
+        document.addEventListener("mouseenter",mouseclick)
+
+        function mouseclick(){
+            document.getElementById("js").style.backgroundColor = "blue";
+            document.getElementById("js1").innerHTML = "Hello Javascript";
+        }
+     </script> -->
+     <label for="input">Enter your  Name : </label>
+     <input type="text" name="input" id="name">
+     <p id="para"></p>
+      <script>
+        document.addEventListener("input",input);
+        function input(){
+          let res = document.getElementById("name").value;
+        
+          let p = document.getElementById("para").innerHTML = res;
+        }
+      </script>
+</body>
+</html>

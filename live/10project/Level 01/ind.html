@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello Developers</h1>
+    <p id="js"></p>
+    <button onclick = "maths()" id  = "prompt">Click me</button>
+    <script>
+    // function maths(){
+    //    setTimeout(()=>{
+    //     alert("loaded")
+    //    },1000)
+    // }
+    // function maths(){
+    // let val = confirm("Are you Sure You want to exit");
+    // if(val){
+    //     document.getElementById("js").innerText = "Exit the Page"
+    // }
+    // else{
+    //     document.getElementById("js").innerText = "stay on Page"
+    // }
+// }
+function maths(){
+let value = prompt("solve this 20-15 ");
+if(value==5){
+    document.getElementById("js").innerText = "Correct"
+    document.getElementById("js").style.backgroundColor = "green"
+}
+else{
+    document.getElementById("js").innerText = "InCorrect"
+    document.getElementById("js").style.backgroundColor = "red"
+}
+}
+    </script>
+</body>
+</html>
