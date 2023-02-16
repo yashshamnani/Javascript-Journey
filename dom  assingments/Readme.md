@@ -32,7 +32,7 @@ document.querySelector(".side-bar .crayons-card .color-base-70").innerHTML = "I 
 
 ### Task
 
-![Store](./Picture_3.png)
+![Store](./images/Picture_3.png)
 
 ### Fetch all the product name and store in an array
 
@@ -64,7 +64,7 @@ Output:
 
 ### Sample Image
 
-![Sample One](./Pic4.png)
+![Sample One](./images/Pic4.png)
 
 ### Tasks
 
@@ -72,7 +72,7 @@ Output:
 
 ### Output
 
-![Output](./Pic5.png)
+![Output](./images/Pic5.png)
 
 ### Solution
 
@@ -101,7 +101,7 @@ appendList.appendChild(sec)
 
 ### Sample Image
 
-![Sample One](./Pic6.png)
+![Sample One](./images/Pic6.png)
 
 ### Tasks
 
@@ -109,7 +109,7 @@ appendList.appendChild(sec)
 
 ### Output
 
-![Output](./Pic7.png)
+![Output](./images/Pic7.png)
 
 ### Solution
 
@@ -126,7 +126,7 @@ contact.innerHTML = "+91 6366256689"
 
 ### Sample Image
 
-![Sample One](./Pic8.png)
+![Sample One](./images/Pic8.png)
 
 ### Tasks
 
@@ -134,7 +134,7 @@ contact.innerHTML = "+91 6366256689"
 
 ### Output
 
-![Output](./Pic9.png)
+![Output](./images/Pic9.png)
 
 ### Solution
 
@@ -150,7 +150,7 @@ document.querySelector(".diwali-deals-product-sale-pro .diwali-deals-product-sal
 
 ### Sample Image
 
-![Sample One](./Pic10.png)
+![Sample One](./images/Pic10.png)
 
 ### Tasks
 
@@ -158,7 +158,7 @@ document.querySelector(".diwali-deals-product-sale-pro .diwali-deals-product-sal
 
 ### Output
 
-![Output](./Pic11.png)
+![Output](./images/Pic11.png)
 
 ### Solution
 ```JavaScript
@@ -176,7 +176,7 @@ search.addEventListener("mouseenter", ()=>{
 
 ### Sample Image
 
-![Sample One](./Pic12.png)
+![Sample One](./images/Pic12.png)
 
 ### Tasks
 
@@ -185,7 +185,7 @@ search.addEventListener("mouseenter", ()=>{
 
 ### Output
 
-![Output](./Pic13.png)
+![Output](./images/Pic13.png)
 
 ### Solution
 
@@ -202,7 +202,7 @@ document.querySelector("#hp-search-form").submit()
 
 ### Sample Image
 
-![Sample One](./Pic14.png)
+![Sample One](./images/Pic14.png)
 
 ### Tasks
 
@@ -210,7 +210,7 @@ document.querySelector("#hp-search-form").submit()
 
 ### Output
 
-![Output](./Pic15.png)
+![Output](./images/Pic15.png)
 
 ### Solution
 ```JavaScript
@@ -229,7 +229,7 @@ for (let i=0; i<links.length; i=i+2) {
 
 ### Sample Image
 
-![Sample One](./Pic16.png)
+![Sample One](./images/Pic16.png)
 
 ### Tasks
 
@@ -237,7 +237,7 @@ for (let i=0; i<links.length; i=i+2) {
 
 ### Output
 
-![Output](./Pic17.png)
+![Output](./images/Pic17.png)
 
 ### Solution
 
@@ -255,7 +255,7 @@ hero.style.color = "red";
 
 ### Sample Image
 
-![Sample One](./Pic18.png)
+![Sample One](./images/Pic18.png)
 
 ### Tasks
 
@@ -263,7 +263,7 @@ hero.style.color = "red";
 
 ### Output
 
-![Output](./Pic19.png)
+![Output](./images/Pic19.png)
 
 ### Solution
 
@@ -282,7 +282,7 @@ span.addEventListener("mouseover", ()=>{
 
 ### Sample Image
 
-![Sample One](./Pic20.png)
+![Sample One](./images/Pic20.png)
 
 ### Tasks
 
@@ -290,7 +290,7 @@ span.addEventListener("mouseover", ()=>{
 
 ### Output
 
-![Output](./Pic21.png)
+![Output](./images/Pic21.png)
 
 ### Solution
 
@@ -307,7 +307,7 @@ backgroundImage.style.backgroundImage = "url(image url)"
 
 ### Sample Image
 
-![Sample One](./Pic22.png)
+![Sample One](./images/Pic22.png)
 
 ### Tasks
 
@@ -315,7 +315,7 @@ backgroundImage.style.backgroundImage = "url(image url)"
 
 ### Output
 
-![Output](./Pic23.png)
+![Output](./images/Pic23.png)
 
 ### Solution
 ```javascript
@@ -330,7 +330,7 @@ document.querySelector(".color-bg-default .js-braintree-encrypt .btn").style.bac
 
 ### Sample Image
 
-![Sample One](./Pic24.png)
+![Sample One](./images/Pic24.png)
 
 ### Tasks
 
@@ -338,7 +338,7 @@ Target the top description and change “Matching developers with great companie
 
 ### Output
 
-![Output](./Pic25.png)
+![Output](./images/Pic25.png)
 
 ### Solution
 
@@ -354,7 +354,7 @@ document.querySelector(".fl-heading .fl-heading-text").innerText = "JSBOOTCAMP"
 
 ### Sample Image
 
-![Sample One](./Pic26.png)
+![Sample One](./images/Pic26.png)
 
 ### Tasks
 
@@ -362,7 +362,7 @@ document.querySelector(".fl-heading .fl-heading-text").innerText = "JSBOOTCAMP"
 
 ### Output
 
-![Output](./Pic27.png)
+![Output](./images/Pic27.png)
 
 ### Solution
 
@@ -378,7 +378,7 @@ document.querySelector(".HotDealsAll__HotCampaignsEventsContainer__FK0V2 .HotDea
 
 ### Sample Image
 
-![Sample One](./Pic28.png)
+![Sample One](./images/Pic28.png)
 
 ### Tasks
 
@@ -386,7 +386,7 @@ document.querySelector(".HotDealsAll__HotCampaignsEventsContainer__FK0V2 .HotDea
 
 ### Output
 
-![Output](./Pic29.png)
+![Output](./images/Pic29.png)
 
 ### Solutions
 
@@ -403,7 +403,7 @@ products[4].style.textAlign = "right";
 
 ### Sample Image
 
-![Sample One](./Pic30.png)
+![Sample One](./images/Pic30.png)
 
 ### Tasks
 
@@ -411,7 +411,7 @@ products[4].style.textAlign = "right";
 
 ### Output
 
-![Output](./Pic31.png)
+![Output](./images/Pic31.png)
 
 ### Solution
 
@@ -427,7 +427,7 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start With Sc
 
 ### Sample Image
 
-![Sample One](./Pic33.png)
+![Sample One](./images/Pic33.png)
 
 ### Tasks
 
@@ -435,7 +435,7 @@ document.querySelector(".section-title_title__VEDfK").innerHTML = "Start With Sc
 
 ### Output
 
-![Output](./Pic32.png)
+![Output](./images/Pic32.png)
 
 ### Solutions
 
@@ -451,7 +451,7 @@ document.querySelector(".btn-container .btn").innerHTML = new Date().toString();
 
 ### Sample Image
 
-![Sample One](./Pic34.png)
+![Sample One](./images/Pic34.png)
 
 ### Tasks
 
@@ -459,7 +459,7 @@ document.querySelector(".btn-container .btn").innerHTML = new Date().toString();
 
 ### Output
 
-![Output](./Pic35.png)
+![Output](./images/Pic35.png)
 
 ### Solution
 
@@ -475,7 +475,7 @@ document.querySelector("footer").style.background = "linear-gradient(to right, #
 
 ### Sample Image
 
-![Sample One](./Pic36.png)
+![Sample One](./images/Pic36.png)
 
 ### Tasks
 
@@ -483,7 +483,7 @@ document.querySelector("footer").style.background = "linear-gradient(to right, #
 
 ### Output
 
-![Output](./Pic37.png)
+![Output](./images/Pic37.png)
 
 ### Solution
 
@@ -501,7 +501,7 @@ console.log(link);
 
 ### Sample Image
 
-![Sample One](./Pic38.png)
+![Sample One](./images/Pic38.png)
 
 ### Tasks
 
@@ -509,7 +509,7 @@ console.log(link);
 
 ### Output
 
-![Output](./Pic39.png)
+![Output](./images/Pic39.png)
 
 ### Solution 
 
