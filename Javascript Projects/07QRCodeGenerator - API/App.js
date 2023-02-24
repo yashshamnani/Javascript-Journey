@@ -10,8 +10,9 @@ function generateQR(){
             alert("Enter Valid data To generate QR")
          },2000)
     }
+     //This library exposes a class named QRCode to us and the constructor expects two parameters as follows:new QRCode(Target,Options); 
     else{
-        let qr = new QRCode("qrcode",{
+        let qr = new QRCode("qrcode",{  
             text: data,
             width: 256,
             height: 256,
